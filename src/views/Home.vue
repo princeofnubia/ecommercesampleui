@@ -1,17 +1,19 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your MDB Vue.js App"/>
+    <NoticeComp style="padding:0 !important; height: 30px"/>
+    <HelloWorld  style="padding:0 !important"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import NoticeComp from "@/components/NoticeComp.vue"
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    HelloWorld,
+    NoticeComp
   }
 }
 </script>
