@@ -1,26 +1,23 @@
 <template>
-  <div class="hello">
+  <div class="top-nav">
    <mdb-container fluid>
-    <mdb-navbar color="danger" dark>
-      <mdb-navbar-toggler>
-        <mdb-navbar-nav>
-          <mdb-nav-item href="#" active>Shop</mdb-nav-item>
-          <mdb-nav-item href="#">Collections</mdb-nav-item>
-          <mdb-nav-item href="#">Sales</mdb-nav-item>
-          <mdb-dropdown tag="li" class="nav-item">
-            <mdb-dropdown-toggle tag="a" navLink color="danger" slot="toggle" waves-fixed>Dropdown</mdb-dropdown-toggle>
-            <mdb-dropdown-menu>
-              <mdb-dropdown-item>Action</mdb-dropdown-item>
-              <mdb-dropdown-item>Another action</mdb-dropdown-item>
-              <mdb-dropdown-item>Something else here</mdb-dropdown-item>
-            </mdb-dropdown-menu>
-          </mdb-dropdown>
-        </mdb-navbar-nav>
-        <form>
-          <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed/>
-        </form>
-      </mdb-navbar-toggler>
-    </mdb-navbar>
+     
+         <a href="kfdk" style="color:unset">
+           
+              <mdb-row>
+                <mdb-col md="12">
+                  <img src="//cdn.shopify.com/s/files/1/0336/7793/files/Resort20_HP_1_ae6305a8-e267-43e1-b6c6-25f79c2f8fe9_2048x.jpg?v=1580855875" class="img-fluid"/>
+                </mdb-col>
+              </mdb-row>
+       
+        
+       <div class="link">
+         <div class="sub-link">
+         <h4 style="text-decoration: none">Collection-Resort '20</h4>
+          <mdb-btn color="elegant">Shop now</mdb-btn>
+         </div>
+       </div>
+         </a>
   </mdb-container>
   </div>
 </template>
@@ -36,6 +33,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.link {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: 100;
+    top: 50vh;
+    width: 100%;
+}
 h3 {
   font-weight: normal;
   padding-top: 20px;
@@ -45,5 +50,11 @@ p {
   color: #969696;
   margin-bottom: 0;
   font-size: 14px;
+}
+.top-nav {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 </style>
