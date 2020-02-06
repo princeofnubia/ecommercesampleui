@@ -17,7 +17,7 @@
             <mdb-nav-item href="#">New</mdb-nav-item>
           </mdb-navbar-nav>
           <mdb-navbar-nav>
-            <h4 style="font-style:'Leckerli One'">Nikky Glamore</h4>
+            <h4 style="font-family:'Leckerli One'">Nikky Glamore</h4>
           </mdb-navbar-nav>
           <form>
             
