@@ -5,7 +5,7 @@
 </template>
 
 <style lang="css">
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Muli&display=swap');
 #app {
   font-family: 'Muli';
   text-align: center;
