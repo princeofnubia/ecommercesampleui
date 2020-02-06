@@ -7,7 +7,7 @@
 <style lang="css">
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Muli&display=swap');
 #app {
-  font-family: 'Muli';
+  font-family: 'Muli', 'Leckerli One';
   text-align: center;
   color: #2c3e50;
   overflow-x: hidden;
