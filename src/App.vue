@@ -8,9 +8,14 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Muli&display=swap');
 #app {
   font-family: 'Muli', 'Leckerli One';
-  text-align: center;
   color: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow-x: hidden;
+}
+.alajo-btn {
+  padding: 1px 15px 1px 15px;
 }
 .container-fluid {
   padding: 0px;

@@ -1,10 +1,15 @@
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import 'bootstrap-css-only/css/bootstrap.min.css'
-import 'mdbvue/lib/css/mdb.min.css'
-import * as mdbvue from 'mdbvue'
-for (const component in mdbvue) {
-  Vue.component(component, mdbvue[component])
-}
+// import 'bootstrap-css-only/css/bootstrap.min.css'
+// import 'mdbvue/lib/css/mdb.min.css'
+import {BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+// import * as mdbvue from 'mdbvue'
+// for (const component in mdbvue) {
+//   Vue.component(component, mdbvue[component])
+// }
+Vue.use(BootstrapVue);
+Vue.use(BootstrapVueIcons);
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
